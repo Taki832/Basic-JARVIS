@@ -1,0 +1,25 @@
+# ── Core (required) ────────────────────────────────────
+ollama>=0.1.9
+
+# ── Visual / terminal ───────────────────────────────────
+colorama>=0.4.6
+
+# ── System monitoring ───────────────────────────────────
+psutil>=5.9.0
+
+# ── GUI automation + screenshots ────────────────────────
+pyautogui>=0.9.54
+Pillow>=10.0.0
+
+# ── Clipboard ───────────────────────────────────────────
+pyperclip>=1.8.2
+
+# ── Text-to-speech ──────────────────────────────────────
+pyttsx3>=2.90
+
+# ── Speech recognition (STT) ────────────────────────────
+SpeechRecognition>=3.10.0
+# PyAudio is required for microphone access.
+# Windows: pip install pyaudio
+# If that fails: pip install pipwin && pipwin install pyaudio
+pyaudio>=0.2.13
